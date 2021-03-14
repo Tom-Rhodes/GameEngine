@@ -1,0 +1,33 @@
+{
+  "GameObjects":
+  [
+      {"name": "c_FTR", "type": "cube", "position": [5,5,-5]},
+      {"name": "s_FMR", "type": "sphere", "position": [5,0,-5]},
+      {"name": "c_FBR", "type": "cube", "position": [5,-5,-5]},
+      {"name": "s_FTM", "type": "sphere", "position": [0,5,-5]},
+      {"name": "s_FMM", "type": "sphere", "position": [0,0,-5]},
+      {"name": "s_FBM", "type": "sphere", "position": [0,-5,-5]},
+      {"name": "c_FTL", "type": "cube", "position": [-5,5,-5]},
+      {"name": "s_FML", "type": "sphere", "position": [-5,0,-5]},
+      {"name": "c_FBL", "type": "cube", "position": [-5,-5,-5]},
+
+      {"name": "s_MTR", "type": "sphere", "position": [5,5,0]},
+      {"name": "s_MMR", "type": "sphere", "position": [5,0,0]},
+      {"name": "s_MBR", "type": "sphere", "position": [5,-5,0]},
+      {"name": "s_MTM", "type": "sphere", "position": [0,5,0]},
+      {"name": "s_MBM", "type": "sphere", "position": [0,-5,0]},
+      {"name": "s_MTL", "type": "sphere", "position": [-5,5,0]},
+      {"name": "s_MML", "type": "sphere", "position": [-5,0,0]},
+	  {"name": "s_MBL", "type": "sphere", "position": [-5,-5,0]},
+
+      {"name": "c_BTR", "type": "cube", "position": [5,5,5]},
+      {"name": "s_BMR", "type": "sphere", "position": [5,0,5]},
+      {"name": "c_BBR", "type": "cube", "position": [5,-5,5]},
+      {"name": "s_BTM", "type": "sphere", "position": [0,5,5]},
+      {"name": "s_BMM", "type": "sphere", "position": [0,0,5]},
+      {"name": "s_BBM", "type": "sphere", "position": [0,-5,5]},
+      {"name": "c_BTL", "type": "cube", "position": [-5,5,5]},
+      {"name": "s_BML", "type": "sphere", "position": [-5,0,5]},
+      {"name": "c_BBL", "type": "cube", "position": [-5,-5,5]}
+  ]
+}

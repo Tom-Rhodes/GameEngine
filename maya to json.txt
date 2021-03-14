@@ -1,0 +1,31 @@
+import json
+import maya.cmds as cmds
+
+json_str = {}
+selected_obj = cmds.ls(sl=True, type='transform')
+for curr_obj in selected_obj:
+    position = cmds.xform(curr_obj, query=True, translation=True, worldSpace=True)
+    node={
+        'position': str(position[0]) + ',' + str(position[1]) + ',' + str(position[2])}
+    json_str[curr_obj] = node
+
+output_json = json.dumps(json_str, sort_keys=True, indent=2, separators=(',', ': '))
+print output_json
+
+{
+  "pCube1": {
+    "position": "3.01964118496,2.97608866787,0.0"
+  },
+  "pCube2": {
+    "position": "-3.00512367926,3.00512367926,0.0"
+  },
+  "pCube3": {
+    "position": "0.0,0.0,0.0"
+  },
+  "pCube4": {
+    "position": "3.03415869065,-3.00512367926,0.0"
+  },
+  "pCube5": {
+    "position": "-3.00512367926,-2.97608866787,0.0"
+  }
+}

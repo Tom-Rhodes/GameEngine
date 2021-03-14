@@ -1,0 +1,59 @@
+\hypertarget{class_game}{}\section{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+\mbox{\hyperlink{class_game}{Game}} class that runs most updated functions.  
+
+
+
+
+{\ttfamily \#include $<$Game.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_a79df6376b332d63c9eca0dcee30305c3}\label{class_game_a79df6376b332d63c9eca0dcee30305c3}} 
+void {\bfseries update} ()
+\item 
+\mbox{\Hypertarget{class_game_a15ddd769261d923827a3cdf41499c843}\label{class_game_a15ddd769261d923827a3cdf41499c843}} 
+void {\bfseries render} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_ad01d32edc479a3edc79e5a3d7b4281d2}\label{class_game_ad01d32edc479a3edc79e5a3d7b4281d2}} 
+\mbox{\hyperlink{class_i_engine_core}{I\+Engine\+Core}} $\ast$ {\bfseries m\+\_\+engine\+Interface\+Ptr}
+\item 
+\mbox{\Hypertarget{class_game_a001f55f492c3fbafe8cf27eb04df293c}\label{class_game_a001f55f492c3fbafe8cf27eb04df293c}} 
+\mbox{\hyperlink{struct_input_handler}{Input\+Handler}} $\ast$ {\bfseries m\+\_\+input\+Handler}
+\item 
+\mbox{\Hypertarget{class_game_ad6a7b4699f55c3ba069aef8271d42d60}\label{class_game_ad6a7b4699f55c3ba069aef8271d42d60}} 
+\mbox{\hyperlink{class_scene}{Scene}} $\ast$ {\bfseries m\+\_\+current\+Scene} = new \mbox{\hyperlink{classscene1}{scene1}}()
+\item 
+\mbox{\Hypertarget{class_game_a1246a08959809a361ac3eab55f124698}\label{class_game_a1246a08959809a361ac3eab55f124698}} 
+\mbox{\hyperlink{class_camera}{Camera}} {\bfseries m\+\_\+camera}
+\item 
+\mbox{\Hypertarget{class_game_a5ec0d2343999d0f1f2f1ec20a24c343b}\label{class_game_a5ec0d2343999d0f1f2f1ec20a24c343b}} 
+double \mbox{\hyperlink{class_game_a5ec0d2343999d0f1f2f1ec20a24c343b}{duration}}
+\begin{DoxyCompactList}\small\item\em double used in time tracking for scene loading \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_a00c8ac7aac5917077638ef797eaed5ce}\label{class_game_a00c8ac7aac5917077638ef797eaed5ce}} 
+clock\+\_\+t \mbox{\hyperlink{class_game_a00c8ac7aac5917077638ef797eaed5ce}{timer}}
+\begin{DoxyCompactList}\small\item\em clock used to track time passed for scene loading \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_a86c92e28e4972a220f9dca7d31ecf124}\label{class_game_a86c92e28e4972a220f9dca7d31ecf124}} 
+bool {\bfseries level1\+Load} = false
+\item 
+\mbox{\Hypertarget{class_game_a6a8a282f52f224bc53cc6297297ba405}\label{class_game_a6a8a282f52f224bc53cc6297297ba405}} 
+bool {\bfseries level2\+Load} = false
+\item 
+\mbox{\Hypertarget{class_game_a8173b1d71de83055abd95ee54dd27392}\label{class_game_a8173b1d71de83055abd95ee54dd27392}} 
+bool \mbox{\hyperlink{class_game_a8173b1d71de83055abd95ee54dd27392}{level3\+Load}} = false
+\begin{DoxyCompactList}\small\item\em bools to prevent reloading of the same level \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_game}{Game}} class that runs most updated functions. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thoma/\+Desktop/\+Year 3/\+Game Engine/\+Assignment-\/\+P16203335/\+Lab5/\+Lab5/include/Game.\+h\item 
+C\+:/\+Users/thoma/\+Desktop/\+Year 3/\+Game Engine/\+Assignment-\/\+P16203335/\+Lab5/\+Lab5/src/Game.\+cpp\end{DoxyCompactItemize}

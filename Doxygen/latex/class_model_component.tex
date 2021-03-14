@@ -1,0 +1,72 @@
+\hypertarget{class_model_component}{}\section{Model\+Component Class Reference}
+\label{class_model_component}\index{ModelComponent@{ModelComponent}}
+
+
+A class to point to the model, inheriting from the abstract component class$\ast$/.  
+
+
+
+
+{\ttfamily \#include $<$Model\+Component.\+h$>$}
+
+Inheritance diagram for Model\+Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_model_component}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_model_component_a5def59776319943854fb5da3dc515051}{On\+Update}} (float dt) override
+\item 
+\mbox{\Hypertarget{class_model_component_a48d6170e857f323839039ce54e9418e1}\label{class_model_component_a48d6170e857f323839039ce54e9418e1}} 
+void {\bfseries On\+Message} (const std\+::string m) override
+\item 
+\mbox{\hyperlink{class_model_component_ad245e043248d6c6d8ac6856a860a9887}{Model\+Component}} (\mbox{\hyperlink{class_model}{Model}} $\ast$the\+Model)
+\begin{DoxyCompactList}\small\item\em Class constructer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_model_component_a0bcf3d110e4cda086ac931b60f472689}\label{class_model_component_a0bcf3d110e4cda086ac931b60f472689}} 
+\mbox{\hyperlink{class_model}{Model}} $\ast$ \mbox{\hyperlink{class_model_component_a0bcf3d110e4cda086ac931b60f472689}{get\+Model}} ()
+\begin{DoxyCompactList}\small\item\em Getter to return the model paired with the \mbox{\hyperlink{class_game_object}{Game\+Object}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_model_component_a3dd9367267556f8aeb6abca61ee9dc6b}\label{class_model_component_a3dd9367267556f8aeb6abca61ee9dc6b}} 
+\mbox{\hyperlink{class_model}{Model}} $\ast$ \mbox{\hyperlink{class_model_component_a3dd9367267556f8aeb6abca61ee9dc6b}{model}}
+\begin{DoxyCompactList}\small\item\em A pointer to the model class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class to point to the model, inheriting from the abstract component class$\ast$/. 
+
+Used to attach a model to a \mbox{\hyperlink{class_game_object}{Game\+Object}} through the \mbox{\hyperlink{class_game_object}{Game\+Object}} template for components 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_model_component_ad245e043248d6c6d8ac6856a860a9887}\label{class_model_component_ad245e043248d6c6d8ac6856a860a9887}} 
+\index{ModelComponent@{ModelComponent}!ModelComponent@{ModelComponent}}
+\index{ModelComponent@{ModelComponent}!ModelComponent@{ModelComponent}}
+\subsubsection{\texorpdfstring{ModelComponent()}{ModelComponent()}}
+{\footnotesize\ttfamily Model\+Component\+::\+Model\+Component (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_model}{Model}} $\ast$}]{the\+Model }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Class constructer. 
+
+Passes through a model pointer, which is then used to define the model class pointer using member initilisation. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_model_component_a5def59776319943854fb5da3dc515051}\label{class_model_component_a5def59776319943854fb5da3dc515051}} 
+\index{ModelComponent@{ModelComponent}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!ModelComponent@{ModelComponent}}
+\subsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily void Model\+Component\+::\+On\+Update (\begin{DoxyParamCaption}\item[{float}]{dt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Empty body, override functions for the parent \mbox{\hyperlink{class_component}{Component}} 
+
+Implements \mbox{\hyperlink{class_component}{Component}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thoma/\+Desktop/\+Year 3/\+Game Engine/\+Assignment-\/\+P16203335/\+Lab5/\+Lab5/include/Model\+Component.\+h\end{DoxyCompactItemize}

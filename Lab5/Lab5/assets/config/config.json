@@ -1,0 +1,24 @@
+{
+  "ConfigKeys":
+	[
+		{"name": "forward", 		"key" : "W", 	"class" : 1},
+		{"name": "left", 			"key" : "A", 	"class" : 2},
+		{"name": "right", 			"key" : "S", 	"class" : 3},
+		{"name": "right", 			"key" : "D", 	"class" : 4},
+		{"name": "up", 				"key" : "Q", 	"class" : 5},
+		{"name": "down", 			"key" : "E", 	"class" : 6}
+	],
+	
+  "ConfigMBs":
+	[
+		{"name": "Rotate", 			"key" : 0},
+		{"name": "SceneSwitch", 	"key" : 1},
+		{"name": "FOVReset", 		"key" : 2}
+	],
+
+  "ConfigScroll":
+  	[
+  		{"name": "sFOVUp", 		"scrollDir" : 0},
+  		{"name": "sFOVDown", 	"scrollDir" : 1}
+  	]
+}

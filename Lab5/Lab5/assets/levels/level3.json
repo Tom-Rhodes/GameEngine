@@ -1,0 +1,9 @@
+{
+  "GameObjects":
+  [
+      {"name": "sphereF", "type": "sphere", "position": [-6,0,-6]},
+      {"name": "cubeR", "type": "cube", "position": [-2,0,-10]},
+      {"name": "pyramidB", "type": "pyramid", "position": [2,0,-10]},
+      {"name": "torusL", "type": "torus", "position": [6,0,-6]}
+  ]
+}

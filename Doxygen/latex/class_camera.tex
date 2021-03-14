@@ -1,0 +1,82 @@
+\hypertarget{class_camera}{}\section{Camera Class Reference}
+\label{class_camera}\index{Camera@{Camera}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_camera_acee2a1b3d56b0f141a3c6ee82735ed39}\label{class_camera_acee2a1b3d56b0f141a3c6ee82735ed39}} 
+{\bfseries Camera} (const glm\+::vec3 \&pos)
+\item 
+\mbox{\Hypertarget{class_camera_a9e5dda23dca2ae363424f7a9025f55c9}\label{class_camera_a9e5dda23dca2ae363424f7a9025f55c9}} 
+{\bfseries Camera} (const glm\+::vec3 \&pos, const glm\+::quat \&orient)
+\item 
+\mbox{\Hypertarget{class_camera_aec0442093303b9568a159f8c87f8b7d8}\label{class_camera_aec0442093303b9568a159f8c87f8b7d8}} 
+void {\bfseries look\+At} (const glm\+::vec3 \&target)
+\item 
+\mbox{\Hypertarget{class_camera_afc008b2c6366c016c824d1244f8a6bf8}\label{class_camera_afc008b2c6366c016c824d1244f8a6bf8}} 
+void {\bfseries scale} (const glm\+::vec3 \&scale)
+\item 
+\mbox{\Hypertarget{class_camera_afcd173158eee09a5dd919b175b74957d}\label{class_camera_afcd173158eee09a5dd919b175b74957d}} 
+void {\bfseries scale} (float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_camera_a26f5c28317ec7add2a21ddbdc8e463fb}\label{class_camera_a26f5c28317ec7add2a21ddbdc8e463fb}} 
+const glm\+::vec3 \& {\bfseries position} () const
+\item 
+\mbox{\Hypertarget{class_camera_a872dd113215278493380d19716c63644}\label{class_camera_a872dd113215278493380d19716c63644}} 
+const glm\+::quat \& {\bfseries orientation} () const
+\item 
+\mbox{\Hypertarget{class_camera_a2f90e661a78172675ca06ea69667b531}\label{class_camera_a2f90e661a78172675ca06ea69667b531}} 
+glm\+::mat4 {\bfseries get\+View\+Matrix} () const
+\item 
+\mbox{\Hypertarget{class_camera_aa00429d00bae4984467f9c5d1a3bd158}\label{class_camera_aa00429d00bae4984467f9c5d1a3bd158}} 
+void {\bfseries translate} (const glm\+::vec3 \&v)
+\item 
+\mbox{\Hypertarget{class_camera_ac9e53556c53beee69c77a97e2a1c1068}\label{class_camera_ac9e53556c53beee69c77a97e2a1c1068}} 
+void {\bfseries translate} (float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_camera_a0e6180b5a8da63a999db3de1802c8f4c}\label{class_camera_a0e6180b5a8da63a999db3de1802c8f4c}} 
+void {\bfseries rotate} (float angle, const glm\+::vec3 \&axis)
+\item 
+\mbox{\Hypertarget{class_camera_a4a45040f06f24a53af7f17bbcc610f22}\label{class_camera_a4a45040f06f24a53af7f17bbcc610f22}} 
+void {\bfseries rotate} (float angle, float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_camera_ac09690e0b8fa927653dc5881a1cf7c7f}\label{class_camera_ac09690e0b8fa927653dc5881a1cf7c7f}} 
+void {\bfseries tea\+Rotate} (float yaw, float pitch)
+\item 
+\mbox{\Hypertarget{class_camera_ab4eab94754431725c572d528a07a35cc}\label{class_camera_ab4eab94754431725c572d528a07a35cc}} 
+void {\bfseries yaw} (float angle)
+\item 
+\mbox{\Hypertarget{class_camera_a49e00b90b94853e4485a6bdf063796de}\label{class_camera_a49e00b90b94853e4485a6bdf063796de}} 
+void {\bfseries pitch} (float angle)
+\item 
+\mbox{\Hypertarget{class_camera_a72be99f88b1cc21122178109d3441818}\label{class_camera_a72be99f88b1cc21122178109d3441818}} 
+void {\bfseries roll} (float angle)
+\item 
+\mbox{\Hypertarget{class_camera_a5ec1871e6f296d8528e64157c6371c09}\label{class_camera_a5ec1871e6f296d8528e64157c6371c09}} 
+float {\bfseries get\+F\+OV} ()
+\item 
+\mbox{\Hypertarget{class_camera_ade53ee61895c2143da3cec03d08ef3eb}\label{class_camera_ade53ee61895c2143da3cec03d08ef3eb}} 
+void {\bfseries set\+F\+OV} (float fov)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_camera_aa4d06d49524248f81823444fa2544da0}\label{class_camera_aa4d06d49524248f81823444fa2544da0}} 
+glm\+::vec3 {\bfseries m\+\_\+position}
+\item 
+\mbox{\Hypertarget{class_camera_ac035d6cb4b4bae255d6d12f51137357e}\label{class_camera_ac035d6cb4b4bae255d6d12f51137357e}} 
+glm\+::quat {\bfseries m\+\_\+orientation}
+\item 
+\mbox{\Hypertarget{class_camera_aa404a4e057fa16fb82ce8668d7a661b6}\label{class_camera_aa404a4e057fa16fb82ce8668d7a661b6}} 
+float {\bfseries m\+\_\+fov}
+\item 
+\mbox{\Hypertarget{class_camera_a77b356053ed77c2df065d03130b94a97}\label{class_camera_a77b356053ed77c2df065d03130b94a97}} 
+glm\+::vec3 {\bfseries axisX} = glm\+::vec3(1, 0, 0)
+\item 
+\mbox{\Hypertarget{class_camera_a7522f086d341b41c3cae18edd8571097}\label{class_camera_a7522f086d341b41c3cae18edd8571097}} 
+glm\+::vec3 {\bfseries axisY} = glm\+::vec3(0, 1, 0)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thoma/\+Desktop/\+Year 3/\+Game Engine/\+Assignment-\/\+P16203335/\+Lab5/\+Lab5/include/Camera.\+h\end{DoxyCompactItemize}

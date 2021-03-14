@@ -1,0 +1,10 @@
+{
+  "GameObjects":
+  [
+      {"name": "sphereMM", "type": "sphere", "position": [0,0,-10]},
+      {"name": "sphereTR", "type": "sphere", "position": [5,5,-10]},
+      {"name": "sphereBR", "type": "sphere", "position": [5,-5,-10]},
+      {"name": "sphereBL", "type": "sphere", "position": [-5,-5,-10]},
+      {"name": "sphereTL", "type": "sphere", "position": [-5,5,-10]}
+  ]
+}

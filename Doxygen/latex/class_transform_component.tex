@@ -1,0 +1,82 @@
+\hypertarget{class_transform_component}{}\section{Transform\+Component Class Reference}
+\label{class_transform_component}\index{TransformComponent@{TransformComponent}}
+Inheritance diagram for Transform\+Component\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_transform_component}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_transform_component_ab763f5af77fcb5eee0e725c219901fa3}\label{class_transform_component_ab763f5af77fcb5eee0e725c219901fa3}} 
+void {\bfseries On\+Update} (float dt) override
+\item 
+\mbox{\Hypertarget{class_transform_component_ac250c4b7e47e639d0f8693d04c9b5051}\label{class_transform_component_ac250c4b7e47e639d0f8693d04c9b5051}} 
+void {\bfseries On\+Message} (const std\+::string m) override
+\item 
+\mbox{\Hypertarget{class_transform_component_a01037615eda19c3bbb51c99094839574}\label{class_transform_component_a01037615eda19c3bbb51c99094839574}} 
+{\bfseries Transform\+Component} (const glm\+::vec3 \&pos)
+\item 
+\mbox{\Hypertarget{class_transform_component_a05ce9d2b5a350a5d8d67ce6b323818d4}\label{class_transform_component_a05ce9d2b5a350a5d8d67ce6b323818d4}} 
+{\bfseries Transform\+Component} (const glm\+::vec3 \&pos, const glm\+::quat \&orient)
+\item 
+\mbox{\Hypertarget{class_transform_component_aa823162adc73870484409dcdb8cc95f3}\label{class_transform_component_aa823162adc73870484409dcdb8cc95f3}} 
+{\bfseries Transform\+Component} (const glm\+::vec3 \&pos, const glm\+::quat \&orient, const glm\+::vec3 \&scale)
+\item 
+\mbox{\Hypertarget{class_transform_component_a1f236ca0fb57ccb2a5e1238502a880ac}\label{class_transform_component_a1f236ca0fb57ccb2a5e1238502a880ac}} 
+const glm\+::vec3 \& {\bfseries position} () const
+\item 
+\mbox{\Hypertarget{class_transform_component_a7655d65aee0cb5dc459e8f632c80a6d1}\label{class_transform_component_a7655d65aee0cb5dc459e8f632c80a6d1}} 
+const glm\+::quat \& {\bfseries orientation} () const
+\item 
+\mbox{\Hypertarget{class_transform_component_a4b04c6a025c6be6bd0b9400827ee2291}\label{class_transform_component_a4b04c6a025c6be6bd0b9400827ee2291}} 
+const glm\+::vec3 \& {\bfseries scale} () const
+\item 
+\mbox{\Hypertarget{class_transform_component_a5fc531fdaba497dfb2013edce34cb094}\label{class_transform_component_a5fc531fdaba497dfb2013edce34cb094}} 
+glm\+::mat4 {\bfseries get\+Model\+Matrix} ()
+\item 
+\mbox{\Hypertarget{class_transform_component_af6ff15b431e0959b26714037f4b5e5e9}\label{class_transform_component_af6ff15b431e0959b26714037f4b5e5e9}} 
+void {\bfseries translate} (const glm\+::vec3 \&v)
+\item 
+\mbox{\Hypertarget{class_transform_component_af495b5a63ba61ac9f67170ecf30769ac}\label{class_transform_component_af495b5a63ba61ac9f67170ecf30769ac}} 
+void {\bfseries translate} (float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_transform_component_a54f3f0e7924028bb32279aac3938a149}\label{class_transform_component_a54f3f0e7924028bb32279aac3938a149}} 
+void {\bfseries rotate} (float angle, const glm\+::vec3 \&axis)
+\item 
+\mbox{\Hypertarget{class_transform_component_a7c97e7f1e9924b811319acb73accde72}\label{class_transform_component_a7c97e7f1e9924b811319acb73accde72}} 
+void {\bfseries rotate} (float angle, float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_transform_component_a45483b2f5f38819ad0db6fcfe0f0ded8}\label{class_transform_component_a45483b2f5f38819ad0db6fcfe0f0ded8}} 
+void {\bfseries scale\+Up} (const glm\+::vec3 \&v)
+\item 
+\mbox{\Hypertarget{class_transform_component_a161374892f674b2e6d34bcaeb66a2a28}\label{class_transform_component_a161374892f674b2e6d34bcaeb66a2a28}} 
+void {\bfseries scale\+Up} (float x, float y, float z)
+\item 
+\mbox{\Hypertarget{class_transform_component_ae32c6f3f18b81fc712629fb689d61252}\label{class_transform_component_ae32c6f3f18b81fc712629fb689d61252}} 
+void {\bfseries yaw} (float angle)
+\item 
+\mbox{\Hypertarget{class_transform_component_ad363ec339461bde470fcc50103d12ba7}\label{class_transform_component_ad363ec339461bde470fcc50103d12ba7}} 
+void {\bfseries pitch} (float angle)
+\item 
+\mbox{\Hypertarget{class_transform_component_ae38356794f70a3838b7c690d3bb0bef7}\label{class_transform_component_ae38356794f70a3838b7c690d3bb0bef7}} 
+void {\bfseries roll} (float angle)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_transform_component_a5a441b52ff5f18d940e3351e35868481}\label{class_transform_component_a5a441b52ff5f18d940e3351e35868481}} 
+glm\+::vec3 {\bfseries m\+\_\+position}
+\item 
+\mbox{\Hypertarget{class_transform_component_a70f27f66f621e0e52e96e40ec168ede2}\label{class_transform_component_a70f27f66f621e0e52e96e40ec168ede2}} 
+glm\+::quat {\bfseries m\+\_\+orientation}
+\item 
+\mbox{\Hypertarget{class_transform_component_a50d168d6290b29a66b21ce576fa44d59}\label{class_transform_component_a50d168d6290b29a66b21ce576fa44d59}} 
+glm\+::vec3 {\bfseries m\+\_\+scale}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/thoma/\+Desktop/\+Year 3/\+Game Engine/\+Assignment-\/\+P16203335/\+Lab5/\+Lab5/include/Transform\+Component.\+h\end{DoxyCompactItemize}
